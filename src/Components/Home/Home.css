@@ -1,0 +1,148 @@
+.Home-header {
+    background-color: #000;
+    min-height: 170vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2vmin;
+    color: white;
+    padding-top: 10vh;
+  }
+  .Home-Row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .Home-Column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Home-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Home-nav2{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Home-navlogo{
+    height: 7vh;
+    margin: 1vmin;
+  }
+  .Home-navlinks{
+    font-size: 2.4vmin;
+    color: white;
+    text-decoration: none;
+  }
+  .Home-search{
+      height: 6vh;
+      width: 60vh;
+      background-color: transparent;
+      color: rgba(255, 255, 255, 0.8);
+      border-width: 0.1vh;
+      border-style: solid;
+      border-color: rgba(255, 255, 255, 0.4);
+      padding: 2vh;
+      border-radius: 1vmin;
+      font-size: 2.3vmin;
+  }
+  .Home-searchbutton{
+      height: 5vh;
+      width: 15vh;
+      background-color: blueviolet;
+      color: white;
+      border-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1vmin;
+      text-decoration: none;
+      margin-left: 2vmin;
+  }
+  .Home-container{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-top: 5vmin;
+      font-size: 2.5vmin;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.8);
+  }
+  .Home-grid{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1vmin;
+      align-items: center;
+      
+  }
+  .Home-card{
+      position: relative;
+      height: 35vh;
+      width: 24vh;
+      background-color: #121212;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-top: 4vmin;
+      margin-bottom: 3vmin;
+  }
+
+  .card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card-title {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 2vmin;
+    text-decoration: none;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+  }
+  
+  .card-desc {
+    color: #fff;
+    display: block;
+    font-size: 1.6vmin;
+    position: absolute;
+    height: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.8s ease;
+  }
+  
+  .card:hover .card-desc {
+    opacity: 1;
+    height: 100%;
+  }
+
+
+  

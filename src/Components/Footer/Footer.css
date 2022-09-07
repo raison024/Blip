@@ -1,0 +1,106 @@
+.Footer-App{
+    font-family: 'Poppins', sans-serif;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5vmin;
+    font-weight: 500;
+    flex-grow: 1;
+    padding-top: 2vmin;
+}
+.Footer-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+.Grid-contents{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: flex-start;
+    justify-content: center;  
+}
+.F-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vmin;
+}
+.F-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10vmin;
+}
+
+.Footer-logo{
+    height: 8vmin;
+    margin: 1vmin;
+}
+.Ready-title{
+    font-size: 2.2vmin;
+    color: white;
+    font-weight: normal;
+    margin: 1vmin;
+    margin-left: 36vw;
+}
+.Footer-line{
+    height: 0.1vh;
+    width: 67vw;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 1vmin;
+}
+
+.Sub-input{
+    height: 3.5vmin;
+    width: 13vw;
+    background-color: transparent;
+    color: #fff;
+    border-width: 0;
+    border-bottom-width: 0.2vmin;
+    border-color: #fff;
+    font-size: 2vmin;
+    padding: 1vmin;
+    margin-right: 2vmin;
+    margin-top: 2vmin;
+}
+.Heading{
+    font-size: 2vmin;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin: 1vmin;
+    margin-right: 4vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Heading-content{
+    font-size: 1.6vmin;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 1vmin;
+    /*background-color: blue;*/
+
+}
+
+.Get-started{
+    color: #EE2288;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    font-size: 1.8vmin;
+    font-weight: 600;
+    margin: 2vmin;
+    padding: 1.2vmin;
+    border-radius: 0.5vmin;
+    text-decoration: none;
+  }

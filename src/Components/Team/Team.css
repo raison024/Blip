@@ -1,0 +1,56 @@
+.TeamContact-header {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vmin;
+  }
+.TC-title{
+    font-size: 5vmin;
+    color: blueviolet;
+    font-weight: bold;
+    margin-bottom: 10vh;
+}
+.TC-content{
+    font-size: 2.5vmin;
+    color: white;
+}
+.Team-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vmin;
+}
+.Team-card{
+    height: 40vh;
+    width: 30vh;
+    background-color: #121212;
+    margin: 2vmin;
+}
+.Team-cardimg{
+    height: 13vh;
+    position: relative;
+    top: -6vh;
+    border-radius: 1000px;
+}
+.Team-name{
+    font-size: 2.2vmin;
+    color: white;
+    font-weight: bold;
+}
+.Team-pos{
+    font-size: 1.8vmin;
+    font-weight: normal;
+    color: lightslategray;
+}
+.Team-rol{
+    font-size: 2vmin;
+    color: whitesmoke;
+    font-weight: normal;
+    margin-top: 3vmin;
+}

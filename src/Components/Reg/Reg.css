@@ -1,0 +1,248 @@
+  .Reg-header {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vmin;
+  }
+  .Reg-Row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .Reg-Column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Reg-logo{
+    height: 8vmin;
+    margin: 2vmin;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .Reg-login{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Reg-Container{
+    height: 65%;
+    overflow: visible;
+  }
+  .Reg-box1{
+    width: 50vmin;
+  }
+  .Reg-box2{
+    width: 60vmin;
+  }
+  .Reg-loginbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Assets/johnwick.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .Reg-starttitle{
+    font-weight: bold;
+    font-size: 4.5vmin;
+    font-style: normal;
+    text-align: left;
+    position: relative;
+    animation-name: Start-animation;
+    animation-duration: 1.5s;
+  }
+  @keyframes Start-animation {
+    from {
+        left: -7vmin;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+  }
+  
+  .Reg-welcomebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    animation-name: Welcome-animation;
+    animation-duration: 1s;
+    position: relative;
+  }
+  @keyframes Welcome-animation {
+    from {
+        top: -8vmin;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+  }
+  .Reg-welcomecontainer{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+  }
+
+  .Reg-welcometitle{
+    font-weight: bold;
+    font-size: 4.5vmin;
+    font-style: normal;
+    color: blueviolet;
+    margin: 1vmin;
+    margin-top: -2vmin;
+  }
+  .Reg-continuetitle{
+    font-size: 2vmin;
+    color: #000;
+    margin: 1vmin;
+  }
+  .Reg-logininput{
+    font-size: 1.8vmin;
+    height: 3vh;
+    width: 20vw;
+    border-radius: 0.5rem;
+    border-width: 0;
+    border-style: solid;
+    border-color: #D0D0D0;
+    margin: 1vmin;
+    padding: 1.5vmin;
+  }
+  .Reg-loginbtn{
+    height: 4vh;
+    width: 21vw;
+    border-radius: 1vmin;
+    border-width: 0.4vmin;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1.5vmin;
+  }
+  .Reg-loginbtn:hover{
+    background-color: transparent;
+    border-color: blueviolet;
+    color: blueviolet;
+  }
+  .Reg-line{
+    width: 11vw;
+    height: 0.05vh;
+    background-color: black;
+    opacity: 0.5;
+    margin: 0.5vmin;
+  }
+  .Reg-socialbtn{
+    height: 4vh;
+    width: 11.3vw;
+  }
+  .Reg-registerbtn{
+    height: 4vh;
+    width: 24vw;
+    border-radius: 4vmin;
+    border-width: 0.4vmin;
+    border-style: solid;
+    border-color: #26d7ab;
+    background-color: #26d7ab;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 1vmin;
+  }
+  .Reg-registerbtn:hover{
+    background-color: #fff;
+    border-color: #26d7ab;
+    color: #26d7ab;
+  }
+  @media only screen and (max-width: 600px) {
+    .Buyer-login {
+      background-image: linear-gradient(#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+      flex-direction: column;
+    }
+    .BuyerLogin-box1{
+      display: none;
+    }
+    .BuyerLogin-box2{
+      width: 100%;
+    }
+    .BuyerLogin-logo{
+      height: 10vh;
+    }
+    .BuyerLogin-welcometitle{
+      font-size: 9vmin;
+    }
+    .BuyerLogin-continuetitle{
+      font-size: 4vmin;
+    }
+    .BuyerLogin-logininput{
+      height: 5vh;
+      width: 70vw;
+      font-size: 3.5vmin;
+      border-radius: 2vmin;
+    }
+    .BuyerLogin-forgotbtn{
+      font-size: 3vmin;
+      width: 30vw;
+      margin: 2vmin;
+    }
+    .BuyerLogin-loginbtn{
+      height: 6vh;
+      width: 70vw;
+    }
+    .BuyerLogin-socialbtn{
+      height: 4vh;
+      width: 35vw;
+    }
+    .BuyerLogin-registerbtn{
+      height: 6vh;
+      width: 70vw;
+      border-width: 0.3vmin; 
+      border-color: #3949AB; 
+      border-radius: 9vmin; 
+      text-transform: none; 
+      font-size: 2vmin; 
+      margin: 0.5vmin;
+    }
+  }
+  
+  @media only screen and (max-width: 950px) and (min-width: 601px){
+    .Buyer-login {
+      background-image: linear-gradient(#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+      flex-direction: column;
+    }
+    .BuyerLogin-box1{
+      display: none;
+    }
+    .BuyerLogin-box2{
+      width: 100%;
+    }
+  }

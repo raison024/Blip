@@ -1,0 +1,102 @@
+.Login-header {
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../Assets/login-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vmin;
+  }
+  .Login-Row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-Column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-Box{
+      position: relative;
+      height: 50vh;
+      width: 40vh;
+      backdrop-filter: blur(200px);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 4vmin;
+      border-radius: 1.5vmin;
+      animation-name: LoginBox-anim;
+      animation-duration: 1s;
+  }
+  @keyframes LoginBox-anim {
+      from {
+          top: 5vmin;
+      }
+      to {
+          top: 0vmin;
+      }
+  }
+  .Login-container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3vmin;
+
+  }
+  .Login-title{
+      font-size: 4vmin;
+      font-weight: bold;
+      color: blueviolet;
+  }
+  .Login-para{
+      font-size: 2vmin;
+      font-weight: normal;
+      color: #fff;
+      opacity: 0.8;
+      margin-top: 1vmin;
+  }
+  .Login-input{
+      font-family: 'Poppins', sans-serif;
+      height: 2.2vh;
+      width: 90%;
+      background-color: rgba(0,0,0,0.2);
+      color: #fff;
+      border-width: 0;
+      border-radius: 0.5vmin;
+      font-size: 2vmin;
+      font-weight: normal;
+      padding: 2vmin;
+      margin-bottom: 3vmin;
+  }
+  #inputID::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.Login-submit{
+    margin: 2vmin;
+    height: 5vh;
+    width: 100%;
+    background-color: blueviolet;
+    border-width: 0.2vmin;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 1vmin;
+    font-size: 2vmin;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
